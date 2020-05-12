@@ -1,6 +1,6 @@
 /*  Fomatação geral */
 body{
-	font-family: Handlee, Kalam, cursive;
+	font-family: "Gloria+Hallelujah", Handlee, cursive;
 
 
 	
@@ -9,30 +9,26 @@ body{
 h1, h2, h3{
 
 	margin: 0;
-	font-family: Kalam, "Rock+Salt", cursive;
+	font-family: Kalam, "Gloria+Hallelujah", "Rock+Salt", cursive;
 	font-weight: 700;
 
 }
 
 p{
 
-	font-family: "Rock+Salt", Handlee, cursive;
+	font-family: "Gloria+Hallelujah", "Rock+Salt", Handlee, cursive;
+	font-style: "Gloria+Hallelujah"
 
 }
 /*  Cabeçalho ou barra de navegação */
-
-.logo img{
-	border-radius: 50%;
-
-}
 
 nav{
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: 	#363636;
-	padding: 30px;
+	background-color: #18314C;
+	padding: 20px;
 
 }
 
@@ -63,3 +59,71 @@ nav ul li a{
 
 
 }
+
+/* Header */
+
+header{
+	background-image: url('../img/fundo do h1.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+
+
+
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+
+
+}
+
+.botão{
+
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #103959;
+	font-size: .9em;
+	border-radius: 10%
+
+}
+
+
+@media screen and (min-width: 768px){
+
+/* Barra de navegação ou cabeçalho*/
+nav{
+
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+nav ul{
+
+	flex-direction: row;
+	width: 70%
+}
+
+/* Header */
+
+header{
+	height: 600px;
+	height: 60vh;
+	justify-content: center;
+
+}
+
+
+
+}
+
+
